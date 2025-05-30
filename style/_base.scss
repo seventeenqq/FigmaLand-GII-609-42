@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #181818;
+    box-sizing: border-box;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.container{
+    @media (max-width: $breakpoint-xl) {
+        max-width: $container-lg;
+        margin: 0 auto;
+    }
+    @media (max-width: $breakpoint-lg) {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    @media (max-width: $breakpoint-md) {
+        max-width: $container-sm;
+        margin: 0 auto;
+    }
+    @media (max-width: $breakpoint-sm) {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 12px;
+    }
+}
+
+button{
+    color: white;
+    background: none;
+    border: none;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.2px;
+    line-height: 25px;
+}
+
+h1{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 80px;
+    letter-spacing: 0.2px;
+    line-height: 88px;
+}
+
+h2{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    letter-spacing: 0.2px;
+}
+
+h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    color: white;
+}
+
+h4{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: white;
+}
+

@@ -1,0 +1,69 @@
+.partners__label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 140px;
+
+    @media (max-width: $breakpoint-sm) {
+        margin-top: 70px;
+    }
+}
+
+.partners__label p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 44px;
+}
+
+.small_br{
+    display: none;
+    @media (max-width: $breakpoint-sm) {
+        display: block;
+    }
+}
+
+
+.partners__LogoRoad {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 44px;
+
+    @media (max-width: $breakpoint-lg) {
+        ul {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            max-width: 100%;
+        }
+    }
+}
+
+.partners__LogoRoad ul {
+    display: flex;
+    gap: 70px;
+    list-style: none;
+}
+
+.partners__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: white solid 1px;
+    padding: 13.5px 36px;
+    width: fit-content;
+    margin: 0 auto;
+
+    @media (max-width: $breakpoint-sm) {
+        width: 100%;
+    }
+}
