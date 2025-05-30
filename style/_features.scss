@@ -85,7 +85,6 @@
     display: flex;
     gap: 8px;
     margin-bottom: 8px;
-    justify-content: center;
     @media (max-width: $breakpoint-sm) {
         justify-content: left;
     }
